@@ -1,0 +1,5 @@
+C:\CS287-Examples\Lecture01-Examples\Example05\bin\Debug\Example05.exe.config
+C:\CS287-Examples\Lecture01-Examples\Example05\bin\Debug\Example05.exe
+C:\CS287-Examples\Lecture01-Examples\Example05\bin\Debug\Example05.pdb
+C:\CS287-Examples\Lecture01-Examples\Example05\obj\Debug\Example05.exe
+C:\CS287-Examples\Lecture01-Examples\Example05\obj\Debug\Example05.pdb
