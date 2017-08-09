@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CA9342FF-324D-481C-A0DF-FE26CC3C8085}</ProjectGuid>
+    <ProjectGuid>{3581AB22-D95B-46B0-A3A1-173C41BF742B}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Example07</RootNamespace>
-    <AssemblyName>Example07</AssemblyName>
+    <RootNamespace>Example01</RootNamespace>
+    <AssemblyName>Example01</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -49,9 +49,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Example05\Example05.csproj">
-      <Project>{2c84f767-84bb-4268-9bf8-10b9d2193741}</Project>
-      <Name>Example05</Name>
+    <ProjectReference Include="..\AppleStoreLibrary\AppleStoreLibrary.csproj">
+      <Project>{7074d719-8d3b-410e-b151-9290b203eca5}</Project>
+      <Name>AppleStoreLibrary</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
