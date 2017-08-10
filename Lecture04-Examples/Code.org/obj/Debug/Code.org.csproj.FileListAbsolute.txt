@@ -1,0 +1,5 @@
+C:\CS287-Examples\Lecture04-Examples\Code.org\bin\Debug\Code.org.dll
+C:\CS287-Examples\Lecture04-Examples\Code.org\bin\Debug\Code.org.pdb
+C:\CS287-Examples\Lecture04-Examples\Code.org\obj\Debug\Code.org.csprojResolveAssemblyReference.cache
+C:\CS287-Examples\Lecture04-Examples\Code.org\obj\Debug\Code.org.dll
+C:\CS287-Examples\Lecture04-Examples\Code.org\obj\Debug\Code.org.pdb

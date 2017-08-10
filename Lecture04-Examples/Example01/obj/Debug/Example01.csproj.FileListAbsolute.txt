@@ -1,0 +1,8 @@
+C:\CS287-Examples\Lecture04-Examples\Example01\bin\Debug\Example01.exe.config
+C:\CS287-Examples\Lecture04-Examples\Example01\bin\Debug\Example01.exe
+C:\CS287-Examples\Lecture04-Examples\Example01\bin\Debug\Example01.pdb
+C:\CS287-Examples\Lecture04-Examples\Example01\bin\Debug\Code.org.dll
+C:\CS287-Examples\Lecture04-Examples\Example01\bin\Debug\Code.org.pdb
+C:\CS287-Examples\Lecture04-Examples\Example01\obj\Debug\Example01.csprojResolveAssemblyReference.cache
+C:\CS287-Examples\Lecture04-Examples\Example01\obj\Debug\Example01.exe
+C:\CS287-Examples\Lecture04-Examples\Example01\obj\Debug\Example01.pdb

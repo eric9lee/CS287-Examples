@@ -49,11 +49,13 @@
             // Product1Label
             // 
             this.Product1Label.AutoSize = true;
+            this.Product1Label.BackColor = System.Drawing.SystemColors.Control;
             this.Product1Label.Location = new System.Drawing.Point(22, 44);
             this.Product1Label.Name = "Product1Label";
             this.Product1Label.Size = new System.Drawing.Size(151, 24);
             this.Product1Label.TabIndex = 1;
             this.Product1Label.Text = "Product1 Name";
+            this.Product1Label.Click += new System.EventHandler(this.Product1Label_Click);
             // 
             // Product2Label
             // 
