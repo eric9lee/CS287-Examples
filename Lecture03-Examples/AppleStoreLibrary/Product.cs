@@ -12,5 +12,6 @@ namespace AppleStoreLibrary
         public string Name;
         public int Price;
         public string[] Categories;
+        public bool SoldOut;
     }
 }

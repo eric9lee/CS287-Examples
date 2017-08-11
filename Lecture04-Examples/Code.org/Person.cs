@@ -14,8 +14,14 @@ namespace Code.org
 
         public void MoveForward(double d)
         {
-            Pos.X += d * Math.Cos(Theta * Math.PI / 180.0);
-            Pos.Y += d * Math.Sin(Theta * Math.PI / 180.0);
+            double cosValue =
+                (Theta % 360 == 90 || Theta % 360 == 270) ?
+                0 : Math.Cos(Theta * Math.PI / 180.0);
+            double sinValue =
+                (Theta % 360 == 0 || Theta % 360 == 180) ?
+                0 : Math.Sin(Theta * Math.PI / 180.0);
+            Pos.X += d * cosValue;
+            Pos.Y += d * sinValue;
         }
 
         public void TurnRight(double theta)
