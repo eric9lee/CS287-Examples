@@ -9,3 +9,4 @@ C:\CS287-Examples\Lecture03-Examples\Example02\obj\Debug\Example02.Properties.Re
 C:\CS287-Examples\Lecture03-Examples\Example02\obj\Debug\Example02.csproj.GenerateResource.Cache
 C:\CS287-Examples\Lecture03-Examples\Example02\obj\Debug\Example02.exe
 C:\CS287-Examples\Lecture03-Examples\Example02\obj\Debug\Example02.pdb
+C:\CS287-Examples\Lecture03-Examples\Example02\obj\Debug\Example02.ProductManagementWindow.resources

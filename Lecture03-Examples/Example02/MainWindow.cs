@@ -13,7 +13,7 @@ namespace Example02
 {
     public partial class MainWindow : Form
     {
-        public Product[] Products;
+        public List<Product> Products { get; set; }
         public Order MyOrder;
 
         public int SelectedProductIndex = -1;
@@ -21,23 +21,7 @@ namespace Example02
         public MainWindow()
         {
             InitializeComponent();
-            Products = new Product[]
-            {
-                new Product()
-                {
-                    Id = 1,
-                    Name = "iPhone 7",
-                    Price = 28900,
-                    Categories = new string[] { "iPhone" }
-                },
-                new Product()
-                {
-                    Id = 2,
-                    Name = "iPhone 7 plus",
-                    Price = 31900,
-                    Categories = new string[] { "iPhone" }
-                }
-            };
+            Products = new List<Product>();
             MyOrder = new Order();
             Render();
         }
@@ -45,14 +29,12 @@ namespace Example02
         private void AddProduct1Button_Click(object sender, EventArgs e)
         {
             MyOrder.Add(Products[0]);
-
             Render();
         }
 
         private void AddProduct2Button_Click(object sender, EventArgs e)
         {
             MyOrder.Add(Products[1]);
-
             Render();
         }
 
@@ -74,6 +56,12 @@ namespace Example02
         {
             SelectedProductIndex = 0;
             Product1Label.BackColor = Color.MistyRose;
+        }
+
+        private void AddProductMenuItem_Click(object sender, EventArgs e)
+        {
+            ProductManagementWindow pmWindow = new ProductManagementWindow();
+            pmWindow.ShowDialog();
         }
     }
 }
