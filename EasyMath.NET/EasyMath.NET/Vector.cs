@@ -95,7 +95,7 @@ namespace EasyMath.NET
         public static Vector[] Generate(double min, double max, int count)
         {
             Vector[] vectors = new Vector[count];
-            EasyRandom random = new EasyRandom();
+            Random random = new Random();
             for (int index = 0; index < count; index++)
             {
                 double x = random.NextDouble(min, max);
