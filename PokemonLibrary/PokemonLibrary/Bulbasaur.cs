@@ -30,12 +30,36 @@ namespace PokemonLibrary
             CurrentHp = MaxHp;
 
             Height = 0.71f;
-            Height += (float)random.NextDouble(-0.1, 1.5);
+
             Weight = 6.9f;
-            Weight += (float)random.NextDouble(-2.5, 2.6);
 
             PowerUpStardust = 2500;
             PowerUpCandy = 3;
+        }
+
+        public override float Height
+        {
+            get => base.Height;
+            set
+            {
+                height = value;
+                height += (float)random.NextDouble(-0.1, 1.5);
+            }
+        }
+
+        public override float Weight
+        {
+            get => base.Weight;
+            set
+            {
+                weight = value;
+                weight += (float)random.NextDouble(-2.5, 2.6);
+            }
+        }
+
+        public override string ToString()
+        {
+            return base.ToString();
         }
     }
 }

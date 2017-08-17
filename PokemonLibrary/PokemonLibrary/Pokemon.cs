@@ -10,14 +10,46 @@ namespace PokemonLibrary
     {
         public int NationalNo { get; set; }
         public string Name { get; set; }
-        public float Height { get; set; }
-        public float Weight { get; set; }
+
+        protected float height;
+
+        public virtual float Height
+        {
+            get => height;
+            set => height = value;
+        }
+
+        protected float weight;
+
+        public virtual float Weight
+        {
+            get => weight;
+            set => weight = value;
+        }
+
+        protected int maxHp;
+
+        public virtual int MaxHp
+        {
+            get => maxHp;
+            set => maxHp = value;
+        }
+
         public int CurrentHp { get; set; }
-        public int MaxHp { get; set; }
+
         public int PowerUpStardust { get; set; }
         public int PowerUpCandy { get; set; }
+
         protected int Iv { get; set; }
-        public int Cp { get; set; }
+
+        protected int cp;
+
+        public virtual int Cp
+        {
+            get => cp;
+            set => cp = 2 * value + 1;
+        }
+
         protected static Random random;
 
         public Pokemon()

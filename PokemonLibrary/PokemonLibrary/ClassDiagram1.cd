@@ -3,14 +3,14 @@
   <Class Name="PokemonLibrary.Bulbasaur" Collapsed="true">
     <Position X="1.25" Y="3.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
       <FileName>Bulbasaur.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="PokemonLibrary.Pokemon" Collapsed="true">
     <Position X="2.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAABCABABAAAAEAICAAAQAACAAAAAAAAQgAACAAAA=</HashCode>
+      <HashCode>AAAAABCABABAAAAEAICAAAQAACAAAAAAAIQgAACAAAA=</HashCode>
       <FileName>Pokemon.cs</FileName>
     </TypeIdentifier>
   </Class>
